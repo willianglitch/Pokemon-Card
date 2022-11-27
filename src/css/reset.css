@@ -6,4 +6,17 @@
 }
 body{
     background: #CECCC9;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes movePokemon{
+    0%{
+        padding-top: 0px;
+    }
+    50%{
+        padding-top: 10px;
+    }
+    100%{
+        padding-top: 0px;
+    }
 }
