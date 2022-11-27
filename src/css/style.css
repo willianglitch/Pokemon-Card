@@ -1,0 +1,24 @@
+.HeaderBar{
+    height: 80px ;
+    width: 100%;
+    background: linear-gradient(180deg,#23211C , #23211C, #555553);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px #000000 ;
+}
+.HeaderBar h1{
+    color: #F4F4F4;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-decoration: underline;
+    opacity: 0.7;
+    font-family: 'Rhodium Libre', serif;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.HeaderBar h1:hover{
+    opacity: 1;
+    font-size: 28px;
+}
