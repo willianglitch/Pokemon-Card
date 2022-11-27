@@ -26,7 +26,12 @@ const elementoSecondPokemonType04 = document.getElementById('secondPokemonType04
 const elementoSecondPokemonType05 = document.getElementById('secondPokemonType05')
 const elementoSecondPokemonType06 = document.getElementById('secondPokemonType06')
 
-
+const elementoDescriptionPokemon01 = document.getElementById('descriptionPokemon01')
+const elementoDescriptionPokemon02 = document.getElementById('descriptionPokemon02')
+const elementoDescriptionPokemon03 = document.getElementById('descriptionPokemon03')
+const elementoDescriptionPokemon04 = document.getElementById('descriptionPokemon04')
+const elementoDescriptionPokemon05 = document.getElementById('descriptionPokemon05')
+const elementoDescriptionPokemon06 = document.getElementById('descriptionPokemon06')
 
 
 function addNamePokemon(){
@@ -39,6 +44,7 @@ function addNamePokemon(){
 
     addDexNumber()
     addPokemonType()
+    addDescription()
 }
 
 function addDexNumber(){
@@ -68,5 +74,13 @@ function addPokemonType(){
 
 }
 
+function addDescription(){
+    elementoDescriptionPokemon01.innerHTML = Data[0].description
+    elementoDescriptionPokemon02.innerHTML = Data[1].description
+    elementoDescriptionPokemon03.innerHTML = Data[2].description
+    elementoDescriptionPokemon04.innerHTML = Data[3].description
+    elementoDescriptionPokemon05.innerHTML = Data[4].description
+    elementoDescriptionPokemon06.innerHTML = Data[5].description
+}
 
 addNamePokemon()

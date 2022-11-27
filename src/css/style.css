@@ -53,9 +53,26 @@
     bottom: 0;
     height: 218px;
     width: 268px;
-    background-color: #23211C;
     border-radius: 50px 0 ;
     padding: 10px 20px;
+}
+.card-bg01{
+    background: #23211C ;
+}
+.card-bg02{
+    background: #4D4430;
+}
+.card-bg03{
+    background: #6D345D;
+}
+.card-bg04{
+    background: #441C52;
+}
+.card-bg05{
+    background: #65282C;
+}
+.card-bg06{
+    background: #437C88;
 }
 .pokemon-Name-Dex{
     height: 58px;
@@ -84,6 +101,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 .pokemon-Type .type{
     height: 24px;
@@ -103,4 +121,5 @@
     font-size: 14px;
     letter-spacing: 0.8px;
     margin-top: 10px;
+    opacity: 0.8;
 }
