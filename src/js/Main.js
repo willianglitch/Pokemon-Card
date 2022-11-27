@@ -1,4 +1,4 @@
-function createCard(src,idName,dexPokeNumber){
+function createCard(src,idName,dexPokeNumber,type01,type02){
     return `
     <div class="card">
     <div class="pokemon-image">
@@ -12,8 +12,8 @@ function createCard(src,idName,dexPokeNumber){
         </div>
 
         <div class="pokemon-Type">
-            <div class="type "><p>figthing</p></div>
-            <div class="type "><p>fire</p></div>
+            <div class="type" id="${type01}"></div>
+            <div class="type" id="${type02}"></div>
         </div>
 
         <div class="pokemon-card-information">
@@ -28,11 +28,47 @@ function createCard(src,idName,dexPokeNumber){
 
 document.querySelector('#Cards').innerHTML = `
 <section class="card-Container">
-    ${createCard('TaurosFire','namePokemon01','dexNumber01')}
-    ${createCard('Grafaiai','namePokemon02','dexNumber02')}
-    ${createCard('Tinkaton')}
-    ${createCard('Cyclizar')}
-    ${createCard('Skeledirge')}
-    ${createCard('Cetitan')}
+    ${createCard(
+    'TaurosFire',
+    'namePokemon01',
+    'dexNumber01',
+    'firstPokemonType01',
+    'secondPokemonType01'
+    )}
+    ${createCard(
+    'Grafaiai',
+    'namePokemon02',
+    'dexNumber02',
+    'firstPokemonType02',
+    'secondPokemonType02'
+    )}
+    ${createCard(
+    'Tinkaton',
+    'namePokemon03',
+    'dexNumber03',
+    'firstPokemonType03',
+    'secondPokemonType03'
+    )}
+    ${createCard(
+    'Cyclizar',
+    'namePokemon04',
+    'dexNumber04',
+    'firstPokemonType04',
+    'secondPokemonType04'
+    )}
+    ${createCard(
+    'Skeledirge',
+    'namePokemon05',
+    'dexNumber05',
+    'firstPokemonType05'
+    ,'secondPokemonType05'
+    )}
+    ${createCard(
+    'Cetitan',
+    'namePokemon06',
+    'dexNumber06',
+    'firstPokemonType06',
+    'secondPokemonType06'
+    )}
 </section>
 `

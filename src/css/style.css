@@ -40,15 +40,13 @@
     position: relative;
     background: #F4F4F4;
 }
-.pokemon-image{
-    animation: movePokemon 2s linear infinite;
-}
 .pokemon-image img{
     position: absolute;
     top: -80px;
     left: 50%;
     transform: translateX(-50%);
     height: 164px;
+    animation: movePokemon 2s linear infinite;
 }
 .card-content{
     position: absolute;
