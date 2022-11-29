@@ -19,7 +19,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="Cards pokemon " src=".github/Pokemon-Cards.png" width="100%">
+  <img alt="Cards pokemon " src=".gitHub/Pokemon-Cards.png" width="100%">
 </p>
 
 <br>
