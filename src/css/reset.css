@@ -4,9 +4,21 @@
     box-sizing: border-box;
     outline: none;
 }
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 body{
     background: #CECCC9;
     font-family: 'Roboto', sans-serif;
+    animation: appear 5s linear;
+
 }
 
 @keyframes movePokemon{
@@ -26,3 +38,4 @@ body{
         margin-left: 0;
     }
 }
+

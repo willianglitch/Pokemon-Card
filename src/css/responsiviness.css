@@ -1,11 +1,11 @@
-@media (max-width: 500px) {
-  .card-Container{
+@media (max-width: 570px) {
+  .card-Container {
     align-items: center;
     justify-content: center;
-}
+  }
 }
 @media (max-width: 300px) {
   footer p {
     font-size: 12px;
-}
+  }
 }
